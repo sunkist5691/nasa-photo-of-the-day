@@ -25,13 +25,18 @@
     width: 40%;
 }
 
-.post-wrap label {
-    color: white;
-    font-size: 1rem;
+.post-wrap .btn {
+    margin: 0 2% 3% 2%;
+    font-size: 1.4rem;
+    padding: 1% 2% 1% 2%;
+    border-radius: 0.4rem;
+    transition: 0.2s all ease-in-out;
 }
 
-.post-wrap label input {
-    margin: 0 2% 4% 2%;
+.post-wrap .btn:hover {
+    color: white;
+    background-color: orange;
+    cursor: pointer;
 }
 
 /* header */

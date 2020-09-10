@@ -2,12 +2,12 @@ import React from 'react'
 import Post from './Post.js'
 import './Posts.css'
 
-const Posts = ({object}) => {
+const Posts = ({object, change}) => {
 
     return (
 
         <div className='posts-container'>
-            <Post todayData={object}/>
+            <Post todayData={object} changeDate={change}/>
         </div>
 
     )
