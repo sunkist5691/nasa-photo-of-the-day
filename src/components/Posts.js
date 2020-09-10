@@ -10,13 +10,12 @@ const Container = styled.div `
 
 `
 
-
-const Posts = ({object, change}) => {
+const Posts = ({object, changeDate}) => {
 
     return (
 
         <Container>
-            <Post todayData={object} changeDate={change}/>
+            <Post todayData={object} changeDate={changeDate}/>
         </Container>
 
     )

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const HeaderWrap = styled.div `
+const HeaderWrap = styled.section `
 
     font-size: 1.5rem;
     margin-bottom: 2%;

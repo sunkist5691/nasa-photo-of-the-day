@@ -4,7 +4,7 @@ import Description from './Description'
 import styled from 'styled-components'
 
 
-const PostWrap = styled.div `
+const PostWrap = styled.section `
 
     display: flex;
     flex-direction: column;

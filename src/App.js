@@ -3,14 +3,17 @@ import React, {useEffect, useState} from "react";
 import axios from 'axios'
 import Posts from './components/Posts'
 import {listOfDates} from './components/key'
+import GlobalStyle from './components/Reset'
 import "./App.css";
 
 
-function App() {
+const App = () => {
+
+  // state
   const [data, setData] = useState('N/A')
   const [count, setCount] = useState(0)
 
-  //a function for click events(component Time Machine)
+  // a function for click events(component Time Machine)
   const changeDate = () => {
 
     count === (listOfDates.length-1) ? setCount(0) : setCount(count + 1)
@@ -33,8 +36,9 @@ function App() {
 
     <div className="App">
 
-      <Posts object={data} change={changeDate}/> {/* container of every post from given data */}
-
+      <Posts object={data} changeDate={changeDate}/> {/* container of every post from given data */}
+      <GlobalStyle />
+      
     </div>
 
   )

@@ -12,8 +12,6 @@ const Paragraph = styled.p `
 
 `
 
-
-
 const Description = ({explanation}) => {
 
     return (
